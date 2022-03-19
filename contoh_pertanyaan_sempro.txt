@@ -1,0 +1,17 @@
+- Mengapa mengambil sentimen analisis ?
+Karena pada penelitian ini saya ingin menemukan polaritas sentimen dan topik yang dibicarakan dalam peristiwa ini.
+
+- Mengapa memakai data twitter ?
+Karena twitter sering digunakan dalam penelitian jenis ini, selain itu twitter adalah media sosial yang mudah diakses sehingga mudah untuk mendapatkan datanya.
+
+- Kenapa mengambil topik tentang telur ?
+Karena fenomena ini cukup menarik untuk diteliti, dari tweet yang saya lihat terdapat pro dan kontranya. Pro dikarenakan harga telur yang jadi lebih murah, kontra karena peternak banyak yang merugi.
+
+- Mengapa memilih metode SVM dan KNN ? Kenapa tidak salah satunya ?
+Menurut penelitian yang saya baca SVM termasuk metode yang tingkat akurasinya tinggi sedangkan KNN dapat memproses data yang besar dalam waktu yang singkat.
+
+- Cara kerja metode SVM dan KNN ?
+Support Vector Machine adalah metode klasifikasi yang menggunakan cara mengklasifikasikan secara linear dengan menemukan hyperlane yang terbaik yang berfungsi sebagai pemisah antara 2 kelas, sedangkan KNN metode ini akan membuat sebuah kategori dari data uji berdasarkan kemiripan tetangga terdekatnya dari data latih. Ketika tingkat kemiripannya mendekati atau hampir sama, maka data uji tersebut dapat dimasukkan ke dalam kategori yang sama dengan data latihnya.
+
+- Keunggulan dan kelemahan dari SVM dan KNN ?
+Keunggulan SVM yaitu tingkat akurasinya yang cukup tinggi sedangkan kelemahannya yaitu membutuhkan waktu yang lama untuk memproses data lalu keunggulan KNN yaitu dapat memproses data yang besar dalam waktu singkat sedangkan kelemahannya yaitu sensitif terhadap data outlier.
