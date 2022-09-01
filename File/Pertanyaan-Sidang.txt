@@ -1,0 +1,55 @@
+1. Confusion matriks untuk vader
+2. Nomor gambar jangan romawi
+3. Data manual dijadikan data test
+4. Abstrak
+
+# Langkah SVM
+1. Memetakan data dalam bentuk koordinat
+2. Meminimalisir nilai margin dan mencari persamaan hyperlane
+3. Memetakan hyperlane
+4. Melakukan pengujian terhadap data
+5. Melakukan klasifikasi
+
+# Langkah KNN
+1. Menghitung jarak kesemua data training menggunakan cosine similarity
+atau euclidean distance.
+2. Mengurutkan berdasarkan jarak terdekat sesuai dengan hasil rumusnya.
+3. Mengambil K yang terbaik dari nilai sebelumnya.
+4. Mengambil label K terbaik sebelumnya yang paling banyak.
+
+
+
+
+
+
+
+
+
+
+
+
+Rumus Hyperlane :
+yi(X1. w + b) − 1 ≥ 0
+
+y = kelas
+X1 = Vektor / nilai
+w / b = Margin ?
+
+
+- Mengapa mengambil sentimen analisis ?
+Karena pada penelitian ini saya ingin menemukan polaritas sentimen dan topik yang dibicarakan dalam peristiwa ini.
+
+- Mengapa memakai data twitter ?
+Karena twitter sering digunakan dalam penelitian jenis ini, selain itu twitter adalah media sosial yang mudah diakses sehingga mudah untuk mendapatkan datanya.
+
+- Kenapa mengambil topik ini ?
+Karena fenomena ini cukup menarik untuk diteliti, dari tweet yang saya lihat terdapat pro dan kontranya. Salah satunya yang mendukung berpendapat bahwa undang – undang ini akan membuat pelaku kejahatan seksual dihukum sesuai dengan apa yang dilakukannya, sedangkan salah satu yang menentang berpendapat bahwa undang – undang ini akan menciptakan suatu pemikiran bahwa seks bebas itu diperbolehkan.
+
+- Mengapa memilih metode SVM dan KNN ? Kenapa tidak salah satunya ?
+Menurut penelitian yang saya baca SVM termasuk metode yang tingkat akurasinya tinggi sedangkan KNN dapat memproses data yang besar dalam waktu yang singkat.
+
+- Cara kerja metode SVM dan KNN ?
+Support Vector Machine adalah metode klasifikasi yang menggunakan cara mengklasifikasikan secara linear dengan menemukan hyperlane yang terbaik yang berfungsi sebagai pemisah antara 2 kelas, sedangkan KNN metode ini akan membuat sebuah kategori dari data uji berdasarkan kemiripan tetangga terdekatnya dari data latih. Ketika tingkat kemiripannya mendekati atau hampir sama, maka data uji tersebut dapat dimasukkan ke dalam kategori yang sama dengan data latihnya.
+
+- Keunggulan dan kelemahan dari SVM dan KNN ?
+Keunggulan SVM yaitu tingkat akurasinya yang cukup tinggi sedangkan kelemahannya yaitu membutuhkan waktu yang lama untuk memproses data lalu keunggulan KNN yaitu dapat memproses data yang besar dalam waktu singkat sedangkan kelemahannya yaitu sensitif terhadap data outlier.
